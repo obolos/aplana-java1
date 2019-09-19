@@ -19,8 +19,9 @@ public class Avg {
         int z = sc.nextInt();
 
         int result = (x + y + z) / 3;
-        if (result % 2 == 0) {
-            if (result > 3) System.out.println("Программа выполнена корректно");
+        System.out.println(result);
+        if(Math.round(result / 2) > 3)
+            System.out.println("Программа выполнена корректно");
         }
     }
-}
+
