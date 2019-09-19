@@ -12,7 +12,7 @@ public class ArrayInput {
 
     private static void outputArr(int[] arr) {
         for (int i = 0; i < arr.length; i++)
-            System.out.println("Значение массива а["+i+"] " + arr[i] + " * 2 = " + arr[i]*2);
+            System.out.println("Значение массива arr["+i+"] " + arr[i] + " * 2 = " + arr[i]*2);
 
     }
 
@@ -24,7 +24,7 @@ public class ArrayInput {
         outputArr(test);
     }
 
-    private static void createArr() throws Exception { // проброс Exception от метода initializeArr
+     private static void createArr() throws Exception { // проброс Exception от метода initializeArr
         Scanner sc = new Scanner(System.in);
         int arr[];
 
