@@ -1,13 +1,12 @@
 package tasks.HW8;
 import java.util.Scanner;
-import tasks.HW7.ArrayInput;
 
 /*
 Произведите ввод данных с клавиатуры в матрицу, а после этого произведите вывод первой строки матрицы на экран,
 где каждый элемент умножается на 3. Размерность матрицы задается пользователем.
 
  */
-public class Matrix extends ArrayInput {
+public class Matrix {
 
 
     static String msg = "Введите два числа от 1 до 7";
