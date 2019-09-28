@@ -55,11 +55,11 @@ public class ConvertStrings {
         ConvertStrings cs = new ConvertStrings();
         try {
             cs.printNumbers();
+            System.out.println(cs);
         } catch (NumberFormatException ex) {
-            System.out.println(ex.getMessage());
+            // ex.printStackTrace();
+            System.out.println("Вы ввели " + ex.getMessage().substring(ex.getMessage().indexOf('"')) + " что является не корректным значением");
         }
-
-        System.out.println(cs);
 
     }
 }
