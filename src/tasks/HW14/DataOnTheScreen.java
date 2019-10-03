@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class DataOnTheScreen {
 
-    private static final String filename = "test1.txt";
+    private static final String filename = "test.txt";
 
     private static boolean helperFileCheck(String filename) {
         return new File(filename).isFile();
