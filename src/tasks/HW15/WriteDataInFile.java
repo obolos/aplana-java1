@@ -15,6 +15,7 @@ public class WriteDataInFile {
             String inputLine = null;
             do {
                 inputLine=in.readLine();
+                if(inputLine.equalsIgnoreCase("стоп")) continue;
                 out.write(inputLine);
                 out.newLine();
             } while (!inputLine.equalsIgnoreCase("стоп"));
